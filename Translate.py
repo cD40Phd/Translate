@@ -1,6 +1,7 @@
 
 from googletrans import Translator
 import datetime
+import re
 
 translator = Translator()
 data_log = datetime.date.today()
@@ -9,6 +10,7 @@ data_log = datetime.date.today()
 f = open('text.txt', 'r')  # 'test.txt'
 if f.mode == 'r':                                       # находится ли файл в режиме «чтения», используя свойство mode:
     contents = f.read()
+contents = re.sub(r"\n{1,}","\n",contents)              # удаляем пустые строки
 #print(contents)
 file_translate = Translator()
 result = translator.translate(contents, dest='ru')

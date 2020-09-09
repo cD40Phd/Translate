@@ -1,11 +1,5 @@
-Replace list elements
+Importing matplotlib and pyplot
 
-Replacing list elements is pretty easy. Simply subset the list and assign new values to the subset. You can select single elements or you can change entire list slices at once.
+Pyplot is a collection of functions in the popular visualization package Matplotlib. Its functions manipulate elements of a figure, such as creating a figure, creating a plotting area, plotting lines, adding plot labels, etc. Let's use the plot() function from pyplot to create a dashed line graph showing the growth of a company's stock. Remember, you can change the color of the line by adding the argument color and the linestlye by adding the argument linestyle.
 
-Use the IPython Shell to experiment with the commands below. Can you tell what's happening and why?
-
-x = ["a", "b", "c", "d"]
-x[1] = "r"
-x[2:] = ["s", "t"]
-
-For this and the following exercises, you'll continue working on the areas list that contains the names and areas of different rooms in a house.
+Two lists, days (representing the days since the company became public), and prices (representing the price of the stock corresponding to that day) are available in your workspace.
