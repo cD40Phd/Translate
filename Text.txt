@@ -1,5 +1,1 @@
-Importing matplotlib and pyplot
-
-Pyplot is a collection of functions in the popular visualization package Matplotlib. Its functions manipulate elements of a figure, such as creating a figure, creating a plotting area, plotting lines, adding plot labels, etc. Let's use the plot() function from pyplot to create a dashed line graph showing the growth of a company's stock. Remember, you can change the color of the line by adding the argument color and the linestlye by adding the argument linestyle.
-
-Two lists, days (representing the days since the company became public), and prices (representing the price of the stock corresponding to that day) are available in your workspace.
+Unum Group is one the world's leading providers of employee benefits. The group provides group and individual disability products in the United States and the United Kingdom, and also offers complementary portfolio of other insurance products, including long-term care insurance, life insurance, employer- and employee-paid group benefits, etc.
