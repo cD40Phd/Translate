@@ -2,10 +2,11 @@
 from googletrans import Translator
 import datetime
 import re
+import os
 
 translator = Translator()
 data_log = datetime.date.today()
-
+print(os.getcwd())
 # Перевод текстовых документов
 f = open('text.txt', 'r')  # 'test.txt'
 if f.mode == 'r':                                       # находится ли файл в режиме «чтения», используя свойство mode:

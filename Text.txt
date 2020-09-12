@@ -1,1 +1,3 @@
-Unum Group is one the world's leading providers of employee benefits. The group provides group and individual disability products in the United States and the United Kingdom, and also offers complementary portfolio of other insurance products, including long-term care insurance, life insurance, employer- and employee-paid group benefits, etc.
+These different configurations are fully explained in Debugging configurations; for now, just select Python File, which is the configuration that runs the current file shown in the editor using the currently selected Python interpreter.
+
+The debugger will stop at the first line of the file breakpoint. The current line is indicated with a yellow arrow in the left margin. If you examine the Local variables window at this point, you will see now defined msg variable appears in the Local pane.
